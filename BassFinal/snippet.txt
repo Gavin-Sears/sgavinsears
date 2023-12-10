@@ -1,0 +1,11 @@
+<model-viewer src="bassFinalChart.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="environment.png" skybox-image="environment.png" camera-target="0m 0m 0m" min-camera-orbit="91deg auto auto" max-camera-orbit="179deg auto auto" camera-orbit="136deg 72.61deg 5.554m" field-of-view="29.92deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
