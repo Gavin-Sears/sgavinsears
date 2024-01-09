@@ -40,6 +40,9 @@ audioLoader.load( './hornAssets/honk.wav', function( buffer ) {
 camera.position.z = 5;
 
 const controls = new OrbitControls( camera, renderer.domElement );
+controls.minDistance = 2.8;
+controls.maxDistance = 20.0;
+// controls.enableZoom = false;
 const loader = new GLTFLoader();
 
 const mouse = new THREE.Vector2();
